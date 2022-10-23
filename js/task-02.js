@@ -14,5 +14,6 @@ for (let i = 0; i < ingredients.length; i += 1){
   li.textContent = `${ingredients[i]}`
   arr.push(li);
 }
+
 ul.append(...arr)
 console.log(ul)
